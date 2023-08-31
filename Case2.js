@@ -16,9 +16,9 @@ function checkTypeNumber(givenNumber) {
 
 // Contoh penggunaan
 
-console.log(checkTypeNumber(10)); // Output: Angka 4 adalah angka genap
-console.log(checkTypeNumber(3)); // Output: Angka 7 adalah angka ganjil
-console.log(checkTypeNumber("3")); // Output: Angka 7 adalah angka ganjil
-console.log(checkTypeNumber({})); // Output: Angka 4 adalah angka genap
-console.log(checkTypeNumber([])); // Output: Angka 7 adalah angka ganjil
-console.log(checkTypeNumber()); // Output: Angka 7 adalah angka ganjil
+console.log(checkTypeNumber(2)); // Output: Angka 2 adalah angka genap
+console.log(checkTypeNumber(9)); // Output: Angka 9 adalah angka ganjil
+console.log(checkTypeNumber("3")); // parameter error: tipe data tidak ada
+console.log(checkTypeNumber({})); // parameter error: tipe data tidak ada
+console.log(checkTypeNumber([])); // parameter error: tipe data tidak ada
+console.log(checkTypeNumber()); // Output: dimana parameternya
