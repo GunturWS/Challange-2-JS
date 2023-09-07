@@ -12,7 +12,7 @@ function getInfoPenjualan(dataPenjualan) {
   let produkTerlaris = { NamaProduk: "", totalTerjual: 0 };
 
   /* yang digunakan untuk mengiterasi melalui setiap elemen dalam array dataPenjualan.
-  Loop ini akan mengambil setiap elemen dalam array dan menyimpannya dalam variabel produk pada setiap iterasi.*/
+  dan pad Loop ini akan mengambil setiap elemen dalam array dan disimpan didalam variabel produk pada setiap iterasi.*/
   for (const produk of dataPenjualan) {
     const Keuntungan = (produk.hargaJual - produk.hargaBeli) * produk.totalTerjual;
     totalKeuntungan += Keuntungan;
